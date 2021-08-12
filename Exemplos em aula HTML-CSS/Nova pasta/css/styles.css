@@ -1,0 +1,20 @@
+body {
+    background-color: yellowgreen;
+    text-align: center;
+    font-family: Arial;
+}
+h1 {
+    color: blueviolet;
+    
+}
+h2 {
+    color: rgb(51, 30, 30); 
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+}

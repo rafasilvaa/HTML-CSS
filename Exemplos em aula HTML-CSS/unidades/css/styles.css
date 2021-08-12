@@ -1,0 +1,176 @@
+body {
+    margin: 0;
+}
+
+h1::before {
+    content: 'antes ';
+    background-color: yellow;
+    color: rebeccapurple;
+}
+
+h1::after {
+    content: ' depois';
+}
+
+/*---inicio menu---*/
+.menu-mobile img {
+    width: 30px;
+    display: none;
+}
+
+.menu-container {
+    background-color: #2E6F86;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+
+.menu-item {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    width: 20%;
+    text-align: center;
+}
+
+.menu-item::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-size: 30px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 9px;
+}
+
+.bebidas::before {
+    background-image: url(../images/beer.png);
+}
+
+.burguer::before {
+    background-image: url(../images/menu.svg);
+}
+
+.remedios::before {
+    background-image: url(../images/medicine.png);
+}
+
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0;
+}
+
+.menu-item:hover {
+    background-color: #427f95;
+}
+
+@media (max-width: 460px) {
+    .menu-mobile img {
+        display: block;
+    }
+
+    .menu-container {
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu-item {
+        width: 100%;
+    }
+}
+/*---fim menu---*/
+
+
+.wrapper-media {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.container-media {
+    height: 100px;
+    width: 20%;
+    border: 2px solid;
+}
+
+
+.pai {
+    font-size: 2em;
+}
+
+.filho {
+    font-size: 2em;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.container-1 {
+    background-color: red;
+    width: 30%;
+    min-width: 200px;
+    height: 100px;
+    display: inline-block;
+}
+
+.container-2 {
+    background-color: blue;
+    height: 100px;
+    width: 30%;
+    min-width: 200px;
+    display: inline-block;
+}
+
+.container-3 {
+    background-color: green;
+    height: 100px;
+    width: 30%;
+    min-width: 200px;
+    display: inline-block;
+}
+
+@media (max-width: 480px) {
+    .wrapper-media {
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-media {
+        width: 50%;
+    }
+}
+
+@media (max-width: 320px) {
+    .container-media {
+        background-color: royalblue;
+    }
+}
+
+@media (min-width: 321px) {
+    .container-media {
+        background-color: red;
+    }
+}
+
+@media (min-width: 480px) and (orientation: portrait) {
+    .container-media {
+        background-color: black;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-media {
+        background-color: green;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-media {
+        background-color: yellow;
+    }
+}

@@ -1,0 +1,84 @@
+body {
+    font-family:'Oxygen', sans-serif;
+}
+h2{
+    color:deeppink;
+    text-align: center;
+    font-style:italic;
+}
+h3{
+    color: #1a237e;
+    text-decoration: underline;
+    font-weight: normal;
+}
+p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+
+}
+strong {
+    color:gold;
+}
+mark{
+    background-color:greenyellow;
+}
+header {
+    background-color:darkslategray;
+    width: 960px;
+    padding: 30px;
+    border-style: dotted;
+    border-color: yellow;
+    border-width: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+section {
+    background-color: darkkhaki;
+    width: 960px;
+    padding: 30px;
+    border-style: dotted;
+    border-color: yellow;
+    border-width: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+article {
+    background-color:darksalmon;
+    width: 890px;
+    padding: 30px;
+    border-style: dotted;
+    border-color: yellow;
+    border-width: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+footer {
+    background-color: darkslategray;
+    width: 960px;
+    padding: 30px;
+    border-style: dotted;
+    border-color: yellow;
+    border-width: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left:auto;
+    margin-right: auto;
+}
+ul {
+    padding: 0px;
+}
+.dados {
+    color:gold;
+    font-weight: bold;
+}
+.links {
+    text-decoration: none;
+    color: gold;
+}

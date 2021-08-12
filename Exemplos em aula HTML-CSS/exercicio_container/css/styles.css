@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #005eff;
+    text-align: center;
+    color: white;
+}
+
+header, footer, nav, section {
+    background-color: #3abcd3;
+    border: 5px solid black;
+    padding: 30px;
+    margin: 5px auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header, footer {
+    width: 960px;
+    height: 100px;
+    line-height: 71px;
+}
+
+nav, section {
+    height: 300px;
+    display: inline-block;
+}
+
+nav {
+    width: 300px;  
+}
+
+section {
+    width: 660px;
+}

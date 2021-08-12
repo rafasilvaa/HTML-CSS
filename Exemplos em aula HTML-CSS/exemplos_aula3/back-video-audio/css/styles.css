@@ -1,0 +1,14 @@
+.teste-opacidade {
+    background-color: rgba(255,0,0, 0.5);
+    /* opacity: 0.5; */
+}
+
+.imagem {
+    background-color: rgba(136, 136, 136);
+    background-image: url(../imgs/creme-nivea.jpg) ;
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center top;
+    height: 300px;
+    width: 450px;
+}

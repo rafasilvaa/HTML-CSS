@@ -1,0 +1,81 @@
+.titulo-categoria {
+    color: grey;
+    font-size: 28px;
+    font-style: italic;
+}
+
+.lista-produtos {
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.item-produto {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    width: 170px;
+    box-shadow: 0 1px 3px 0 grey;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.item-produto:hover {
+    box-shadow: 0 1px 7px 0 grey;
+}
+
+.item-produto > .nome-produto {
+    color: #153139;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.item-produto .marca {
+    color: #000;
+    font-weight: bold;
+}
+
+.marca {
+    color: red;
+}
+
+.qtd.qtd-class{
+    color: grey;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.precos {
+    margin-top: 30px;
+}
+
+.preco-normal {
+    color: grey;
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+.preco-promo {
+    color: #a6192e;
+    font-weight: bold;
+}
+
+.btn-comprar {
+    color: #005866;
+    border: 1px solid #005866;
+    font-weight: bold;
+    display: block;
+    padding: 15px 0;
+    margin-top: 20px;
+    border-radius: 10px;
+    transition: 0.3s all;
+}
+
+.btn-comprar:hover {
+    background-color: #005866;
+    color: #fff;
+}

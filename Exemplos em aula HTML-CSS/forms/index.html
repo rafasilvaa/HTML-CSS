@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulario</title>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="css/styles.css"/>
+    </head>
+    <body>
+        <h4>Vários input</h4>
+        <input type="button" value="Enviar">
+        <input type="checkbox">
+        <input type="color">
+        <input type="date">
+        <input type="datetime-local">
+        <input type="email">
+        <input type="file">
+        <input type="hidden">
+        <input type="image">
+        <input type="month">
+        <input type="number">
+        <input type="password">
+        <input type="radio">
+        <input type="range">
+        <input type="reset">
+        <input type="search">
+        <input type="submit">
+        <input type="tel">
+        <input type="text">
+        <input type="time">
+        <input type="url">
+        <input type="week">
+        <hr>
+        <br>
+        <a href="https://www.google.com/">Link</a>
+        <br>
+        <h1>Formulario</h1>
+        <form>
+            <h4>País</h4>
+            <select name="pais" required>
+                <option value="">Selecione...</option>
+                <optgroup label="Sul">
+                    <option value="Ar">Argentina</option>
+                    <option value="Br">Brasil</option>
+                    <option value="Co">Colômbia</option>
+                </optgroup>
+                <optgroup label="Europa">
+                    <option value="It">Itália</option>
+                    <option value="Es">Espanha</option>
+                    <option value="Pt">Portuga</option>
+                </optgroup>
+            </select>
+
+            <br>
+            <br>
+            <label for="nomeId">Nome:</label>
+            <input type="text" name="nome" id="nomeId" placeholder="Digite seu nome" required/>
+            <br>
+            <label for="emailId">E-mail:</label>
+            <input type="email" name="email" id="emailId" placeholder="Digite seu email" required/>
+            <br>
+            <label for="senhaId">Senha:</label>
+            <input type="password" name="senha" id="senhaId" placeholder="Digite sua senha" required/>
+            
+            <br>
+
+            <h4>Estado civil</h4>
+            <input type="radio" id="solteiroId" name="estado_civil" value="Solteiro"/>
+            <label for="solteiroId">Solteiro</label>
+            <br>
+            <input type="radio" id="casadoId" name="estado_civil" value="Casado"/>
+            <label for="casadoId">Casado</label>
+            <br>
+            <input type="radio" id="viuvoId" name="estado_civil" value="Viuvo"/>
+            <label for="viuvoId">Viuvo</label>
+            <br>
+            <input type="radio" id="divorciadoId" name="estado_civil" value="Divorciado"/>
+            <label for="divorciadoId">Divorciado</label>
+            <br>
+            <input type="radio" id="uniaoId" name="estado_civil" value="União Estável"/>
+            <label for="uniaoId">União Estável</label>          
+            <br>
+
+            <h4>Hobbies</h4>
+            <input type="checkbox" id="surfId" name="hobbies" value="Surf"/>
+            <label for="surfId">Surf</label> 
+            <br>
+            <input type="checkbox" id="cinemaId" name="hobbies" value="Cinema"/>
+            <label for="cinemaId">Cinema</label> 
+            <br>
+            <input type="checkbox" id="gamesId" name="hobbies" value="Games"/>
+            <label for="gamesId">Games</label> 
+            <br>
+            <input type="checkbox" id="musculacaoId" name="hobbies" value="Musculação"/>
+            <label for="musculacaoId">Musculação</label>
+            <br>
+            <input type="checkbox" id="outrosId" name="hobbies" value="Outros"/>
+            <label for="outrosId">Outros</label>
+            <br>
+            <h5>Se outros, coloque abaixo</h5>
+            <textarea name="outros"></textarea>
+            <br><br>
+            <h4>Deixe sua mensagem</h4>
+            <textarea name="mensagem"></textarea>
+            <br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Excluir</button>
+            <button type="button">Outra ação</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,19 @@
+textarea {
+    resize: none;
+}
+
+h1 {
+    text-decoration: none;
+}
+
+h1:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellowgreen;
+}
+
+input:focus {
+    background-color: green;
+}

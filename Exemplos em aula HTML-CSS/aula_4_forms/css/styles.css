@@ -1,0 +1,9 @@
+.erro-nome {
+    color: red;
+    display: none;
+}
+
+.sucesso-nome {
+    color: green;
+    display: none;
+}
