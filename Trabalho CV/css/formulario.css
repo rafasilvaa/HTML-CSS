@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+
+
+
+h1{
+    font-family: 'Staatliches', cursive;
+}
+
+
+body
+{
+
+    background-color: grey;
+
+}
+
+h4{
+font-size: 25px;
+    font-family: 'Staatliches'
+}
+
+
+input:focus
+{
+background-color: grey;
+
+}
+
+textarea{
+    resize: vertical;
+}
+
+button{
+
+    background-color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+hr{
+
+    background-color: black;
+}
+

@@ -1,0 +1,66 @@
+body {
+    margin: 0 auto;
+    background-color: #658cf1;
+}
+
+.container {
+    margin: 0 auto;
+    margin-top: 60px;
+    background-color: white;
+    list-style: none;
+    width: 400px;
+    height: 250px;
+}
+
+.linhas {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    width: 20%;
+    text-align: center;
+}
+
+.linhas::before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-size: 30px;
+    position: absolute;
+    margin-left:-35px;
+    margin-top: 9px;
+}
+
+.insta::before {
+    background-image: url(../images/instagram.png);
+}
+
+.link::before {
+    background-image: url(../images/linkedin.png);
+}
+
+.face::before {
+    background-image: url(../images/facebook.png);
+}
+.github::before {
+    background-image: url(../images/github.png);
+}
+
+.linhas a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 15px 0;
+}
+
+
+
+   
+
+
+
+
+
+
+
+
+

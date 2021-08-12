@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="./css/slider.css">
+      <link rel="stylesheet" href="./css/styles.css">
+
+
+
+   <link rel="icon" type="imagem/png" href="./img/apple_icon.png" />
+
+   <title>Apple(Brasil)</title>
+</head>
+
+<body>
+   <!--NavBar começa aqui-->
+   <nav class="fixed-top navbar-dark custom-bgnavbar navbar navbar-expand-lg  ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+         aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Alterna navegação">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse justify-content-center " id="navbarTogglerDemo03">
+         <img class=" ocult_icon mx-5" id="logo" src="./img/apple_icon.png" width="20" height="20" alt="">
+         <ul class=" navbar-nav  mt-1 mt-lg-1 ">
+            <li class="nav-item">
+               <a class="mx-4 nav-link" href="https://www.apple.com/br/shop/goto/store">Loja </a>
+            </li>
+            <li class="nav-item">
+               <a class="mx-4 nav-link" href="https://www.apple.com/br/mac/">Mac</a>
+            </li>
+            <li class="nav-item">
+               <a class="mx-4 nav-link " href="https://www.apple.com/br/ipad/">iPad</a>
+            </li>
+            <li class="nav-item">
+               <a class="mx-4 nav-link " href="https://www.apple.com/br/iphone/">iPhone</a>
+            </li>
+            <li class="nav-item">
+               <a class="mx-4 nav-link " href="https://www.apple.com/br/watch/">Watch</a>
+            </li>
+            <li class="nav-item">
+               <a class="mx-4 nav-link " href="https://www.apple.com/br/tv/">TV</a>
+            </li>
+            <li class="nav-item">
+               <a class="mx-4 nav-link " href="https://www.apple.com/br/tv/">Music</a>
+            </li>
+            <li class="nav-item">
+               <a class="mx-4 nav-link " href="https://support.apple.com/pt-br">Suporte</a>
+            </li>
+         </ul>
+         <img class=" ocult_icon mx-4 " id="logo" src="./img/lupa-arredondada.png" width="20" height="20" alt=""
+            href="#"></a>
+         <img class=" ocult_icon mx-4" id="logo" src="./img/bolsa.png" width="20" height="20" alt="" href="#"></a>
+      </div>
+   </nav>
+   <!--Nav bar Termina aqui-->
+
+
+   <!--Alert abaixo do Navbar começa aqui-->
+   <div class=" mt-5 alert alert-dark" role="alert">
+      <a href="https://www.apple.com/br/shop/goto/storehome">Compre online</a>
+      com assistência de especialistas, entrega grátis e muito mais.
+   </div>
+   <!--Alert abaixo do Navbar Termina aqui-->
+
+   <!--Primeira imagem começa aqui-->
+   <div class=" cabecalio container">
+      <h6 id="titulo_cabecalio">iPhone 12</h6>
+      <h4>Rápido que é uma beleza.</h4>
+      <a href="https://www.apple.com/br/iphone-12/" id="link_cabecalio1">Saiba mais ></a>
+      <a href="https://www.apple.com/br/shop/goto/buy_iphone/iphone_12" id="link_cabecalio2"> Comprar ></a>
+   </div>
+   <div class=" custom_img_primeira_foto"><img src="./img/iphone-12-gallery4-2021.jfif" width="70%" height="70%"></div>
+   <!--Primeira imagem Termina aqui-->
+
+   <Br>
+   <!--Segunda imagem começa aqui-->
+   <div class=" cabecalio  custom_container2">
+      <h6 id="titulo_cabecalio">iPhone 12 Pro</h6>
+      <h4>Um salto radical.</h4>
+      <a href="https://www.apple.com/br/iphone-12-pro/" id="link_cabecalio1">Saiba mais ></a>
+      <a href="https://www.apple.com/br/shop/goto/buy_iphone/iphone_12_pro" id="link_cabecalio2"> Comprar ></a>
+      <div class="container custom_img"><img src="./img/iphone_12.png" width="50%" height="50%"></div>
+   </div>
+   <!--Segunda Termina aqui-->
+   <Br>
+  
+     
+      <div class="slideshow-container">
+
+         <!-- Full-width images with number and caption text -->
+         <div class="mySlides fade">
+           <div class="numbertext">1 / 3</div>
+           <img src="./slider_image/1-2.jpg" style="width:100%">
+          
+         </div>
+       
+         <div class="mySlides fade">
+           <div class="numbertext">2 / 3</div>
+           <img src="./slider_image/1.jpg" style="width:100%">
+           
+         </div>
+       
+         <div class="mySlides fade">
+           <div class="numbertext">3 / 3</div>
+           <img src="./slider_image/macbook-pro-13-slide1-cambodia.png" style="width:100%">
+           
+         </div>
+       
+         <!-- Next and previous buttons -->
+         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+         <a class="next" onclick="plusSlides(1)">&#10095;</a>
+       </div>
+       <br>
+       
+       <!-- The dots/circles -->
+       <div style="text-align:center">
+         <span class="dot" onclick="currentSlide(1)"></span>
+         <span class="dot" onclick="currentSlide(2)"></span>
+         <span class="dot" onclick="currentSlide(3)"></span>
+       </div>
+
+
+
+   <Br>
+   <!--LISTA DE PRODUTOS COMEÇA AQUI-->
+   <div class="  lista_produtos">
+      <h6 id="titulo_cabecalio">Produtos em destaque</h6>
+      <h4>Tenha uma experiencia completa!</h4>
+
+      <div class="container  ">
+
+
+         <div class="row">
+            <div class="col-md-3">
+               <li class="mx-2  produtos">
+                  <img class="img_size_responsive" src="./produtos_venda/iphone_12.png" width="100%">
+                  <p>iPhone 12 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS</p>
+                  <p>Por R$ 8.399,00</p>
+                  <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="col-3 img_responsive">
+               <li class=" mx-2  produtos">
+                  <img src="./produtos_venda/iphone_12.png" width="100%">
+                  <p>iPhone 12 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS</p>
+                  <p>Por R$ 8.399,00</p>
+                  <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="col-3 img_responsive">
+               <li class="mx-2  produtos">
+                  <img src="./produtos_venda/iphone_12.png" width="100%">
+                  <p>iPhone 12 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS</p>
+                  <p>Por R$ 8.399,00</p>
+                  <button class="btn-comprar">Comprar</button>
+            </div>
+            <div class="col-3 img_responsive">
+               <li class="mx-2  produtos">
+                  <img src="./produtos_venda/iphone_12.png" width="100%">
+                  <p>iPhone 12 Apple 128GB Branco Tela de 6,1”, Câmera Dupla de 12MP, iOS</p>
+                  <p>Por R$ 8.399,00</p>
+                  <button class="btn-comprar">Comprar</button>
+            </div>
+         </div>
+      </div>
+
+   </div>
+   <!--LISTA DE PRODUTOS TERMINA AQUI-->
+   <br>
+
+   <!-- IMAGEM DUPLA COMEÇA AQUI -->
+   <div class="img_dupla container-fluid">
+      <div class=" row cabecalio  ">
+         <div class="col-6 ">
+            <h6 class="mt-5" id="titulo_cabecalio_B">iMac</h6>
+            <h4>Diga olá.</h4>
+            <a href="https://www.apple.com/br/imac-24/" id="link_cabecalio1">Saiba mais ></a>
+            <a href="https://www.apple.com/br/shop/goto/imac" id="link_cabecalio2"> Comprar ></a>
+            <div class="container custom_img"><img src="./img/ipad.png" width="50%" height="50%"></div>
+         </div>
+         <div class="col-6 custom_container_B">
+
+            <h5 class="mt-5" id="titulo_cabecalio_B">
+               <img class="mb-3" src="./img/logo_branco.png" width="30" height="30" alt="">
+               WATCH
+            </h5>
+            <h6 class="config_watch ml-3">S E R I E S 6</h6>
+            <h4>O poderoso chip M1 da apple esta aqui.</h4>
+            <a href="https://www.apple.com/br/apple-watch-series-6/" id="link_cabecalio1">Saiba mais ></a>
+            <a href="https://www.apple.com/br/shop/goto/apple_watch" id="link_cabecalio2"> Comprar ></a>
+            <div class="container custom_img"><img src="./img/relogio.png" width="50%" height="50%"></div>
+         </div>
+      </div>
+   </div>
+   <!-- IMAGEM DUPLA TERMINA  AQUI -->
+
+   <br>
+
+
+   <!--FOOTER RESPONSIVO (ARCODEON) COMEÇA AQUI-->
+
+
+   <div class="container-fluid acordion_sumir">
+      <p>1. Nem todo conteúdo está disponível em Dolby Atmos. Para acessar os recursos do Dolby Atmos, é preciso ter um
+         aparelho compatível com Dolby Atmos. A qualidade da reprodução depende do hardware, dos acessórios de áudio e
+         da conexão com a internet.</p>
+
+      <button class="accordion">Desobrir e Comprar</button>
+      <div class="panel">
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/mac/">Mac</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/ipad/">iPad</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/iphone/">iPhone</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/watch/">Watch</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/tv/">TV</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/music/">Music</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/airpods/">AirPods</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/ipod-touch/">iPod Touch</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/airtag/">AirTag</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/shop/goto/buy_accessories">Acessorios</a>
+
+
+      </div>
+
+
+      <button class="accordion">Serviços</button>
+      <div class="panel">
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/apple-music/">Apple Music</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/apple-tv-plus/">Apple TV+</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/apple-arcade/">Apple Arcade</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/icloud/">iCloud</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/apple-one/">Apple One</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/apple-pay/">Apple Pay</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/apple-books/">Apple Books</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/apple-podcasts/">Apple Podcasts</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/app-store/">App Store</a>
+      </div>
+
+      <button class="accordion">Sua conta</button>
+      <div class="panel">
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/retail/">Encontre uma loja</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/shop/goto/store">Compre Online</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/retail/geniusbar/">Genius Bar</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/today/">Today at Apple</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/today/camp/">Apple Camp</a>
+         <br>
+         <a class="link_acordion" href="https://apps.apple.com/br/app/apple-store/id375380948">App Apple Store</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/shop/goto/ww/financing">Financiamento</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/recycling/">Programa de Reciclagem da Apple</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/shop/goto/order/list">Status do seu pedido</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/shop/goto/help">Ajuda para comprar</a>
+
+
+      </div>
+
+      <button class="accordion">Apple Store</button>
+      <div class="panel">
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/retail/">Encontre uma loja</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/shop/goto/store">Compre Online</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/retail/geniusbar/">Genius Bar</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/today/">Today at Apple</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/today/camp/">Apple Camp</a>
+         <br>
+         <a class="link_acordion" href="https://apps.apple.com/br/app/apple-store/id375380948">App Apple Store</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/shop/goto/ww/financing">Financiamento</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/recycling/">Programa de Reciclagem da Apple</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/shop/goto/order/list">Status do seu pedido</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/shop/goto/help">Ajuda para comprar</a>
+
+
+      </div>
+      <button class="accordion">Para Empresas</button>
+      <div class="panel">
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/business/">Apple e os negócios</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/retail/business/">Comprar para a sua empresa</a>
+
+      </div>
+      <button class="accordion">Para Educação</button>
+      <div class="panel">
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/education/">Apple e a Educação
+         </a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/education/k12/how-to-buy/">Comprar para Educação
+            Básica</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/shop/goto/educationrouting">Comprar para a
+            faculdade</a>
+
+
+      </div>
+      <button class="accordion">Para a Saúde</button>
+      <div class="panel">
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/healthcare/">Apple e a Saúde</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/healthcare/apple-watch/">Saúde no Apple Watch</a>
+
+
+      </div>
+      <button class="accordion">Valores da Apple</button>
+      <div class="panel">
+         <a class="link_acordion" href="https://www.apple.com/br/accessibility/">Acessibilidade</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/environment/">Meio ambiente</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/privacy/">Privacidade</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/supplier-responsibility">Responsabilidade dos
+            fornecedores</a>
+
+      </div>
+      <button class="accordion">Sobre a Apple</button>
+      <div class="panel">
+         <a class="link_acordion" href="https://www.apple.com/br/newsroom/">Newsroom</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/leadership/">Liderança da Apple</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/careers/br/">Oportunidades de Carreira</a>
+         <br>
+         <a class="link_acordion" href="https://investor.apple.com/">Investidores</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/compliance/">Ética e Compliance</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/apple-events/">Eventos</a>
+         <br>
+         <a class="link_acordion" href="https://www.apple.com/br/contact/">Contato</a>
+
+
+
+      </div>
+
+
+      <p>Outras formas de comprar: <a href="https://appleid.apple.com/br/"
+            class="link_rodape color_frase_rodape">encontre uma Apple Store</a> ou <a
+            href="https://appleid.apple.com/br/" class="link_rodape color_frase_rodape">revendedor Apple</a> na sua
+         região. Ou ligue para
+         0800-761-0867. Rua Leopoldo Couto de Magalhães Jr., 700, 7º andar, Itaim Bibi. São Paulo, SP. CEP: 04542-000.
+         <br>
+
+         Os Serviços de Mídia da Apple são fornecidos pela Apple Services LATAM LLC.
+      </p>
+
+      <hr class="hr1">
+
+      <p>
+         Copyright © 2021 Apple Inc. Todos os direitos reservados. Apple Computer Brasil Ltda. CNPJ: 00.623.904/0003-35
+         &nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <a class="link_rodape"
+            href="https://www.apple.com/choose-country-region/">BRASIL</a> </p>
+
+      <a class="links_footer">Política de Privacidade &#124; Política de vendas &#124; Avisos legais &#124; Mapa do site
+         &#124;</a>
+
+
+
+   </div>
+   <!--FOOTER RESPONSIVO (ARCODEON) TERMINA AQUI AQUI-->
+   
+
+   <!--FOOTER DESKTOP COMEÇA AQUI-->
+   <footer class="  container  some_inteiro">
+      <p>1. Nem todo conteúdo está disponível em Dolby Atmos. Para acessar os recursos do Dolby Atmos, é preciso ter um
+         aparelho compatível com Dolby Atmos. A qualidade da reprodução depende do hardware, dos acessórios de áudio e
+         da conexão com a internet.</p>
+      <hr class="hr1">
+      <div class="row ">
+         <div class="col-2">
+
+
+            <ul> Descobrir e comprar
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/mac/">Mac</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/ipad/">iPad</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/iphone/">iPhone</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/watch/">Watch</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/tv/">TV</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/music/">Music</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/airpods/">AirPods</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/ipod-touch/">iPod Touch</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/airtag/">AirTag</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/shop/goto/buy_accessories">Acessorios</a>
+
+            </ul>
+         </div>
+
+
+         <div class="col-2">
+            <ul> Serviços
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/apple-music/">Apple Music</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/apple-tv-plus/">Apple TV+</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/apple-arcade/">Apple Arcade</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/icloud/">iCloud</a>>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/apple-one/">Apple One</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/apple-pay/">Apple Pay</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/apple-books/">Apple Books</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/apple-podcasts/">Apple Podcasts</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/app-store/">App Store</a>
+
+            </ul>
+         </div>
+
+         <div class="col-2">
+            <ul> Apple Store
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/retail/">Encontre uma loja</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/shop/goto/store">Compre Online</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/retail/geniusbar/">Genius Bar</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/today/">Today at Apple</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/today/camp/">Apple Camp</a>
+               <br>
+               <a class="link_rodape" href="https://apps.apple.com/br/app/apple-store/id375380948">App Apple Store</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/shop/goto/ww/financing">Financiamento</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/recycling/">Programa de Reciclagem da Apple</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/shop/goto/order/list">Status do seu pedido</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/shop/goto/help">Ajuda para comprar</a>
+
+            </ul>
+         </div>
+
+         <div class="col-2">
+            <ul> Para Empresas
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/business/">Apple e os negócios</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/retail/business/">Comprar para a sua empresa</a>
+
+
+            </ul>
+         </div>
+
+         <div class="col-2">
+            <ul> Para a Educação
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/education/">Apple e a Educação
+               </a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/education/k12/how-to-buy/">Comprar para Educação
+                  Básica</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/shop/goto/educationrouting">Comprar para a
+                  faculdade</a>
+
+            </ul>
+         </div>
+
+         <div class="col-2">
+            <ul> Para Saúde
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/healthcare/">Apple e a Saúde</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/healthcare/apple-watch/">Saúde no Apple Watch</a>
+
+            </ul>
+
+         </div>
+         <div class="col-2">
+            <ul> Valores da Apple
+               <a class="link_rodape" href="https://www.apple.com/br/accessibility/">Acessibilidade</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/environment/">Meio ambiente</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/privacy/">Privacidade</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/supplier-responsibility">Responsabilidade dos
+                  fornecedores</a>
+
+            </ul>
+
+         </div>
+         <div class="col-2">
+            <ul> Sobre a Apple
+               <a class="link_rodape" href="https://www.apple.com/br/newsroom/">Newsroom</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/leadership/">Liderança da Apple</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/careers/br/">Oportunidades de Carreira</a>
+               <br>
+               <a class="link_rodape" href="https://investor.apple.com/">Investidores</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/compliance/">Ética e Compliance</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/apple-events/">Eventos</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/contact/">Contato</a>
+
+
+            </ul>
+
+         </div>
+
+         <div class="col-2">
+            <ul> Sua conta
+               <br>
+               <a class="link_rodape" href="https://appleid.apple.com/br/">Gerenciar seu ID Apple</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/shop/goto/account">Conta da Apple Store</a>
+               <br>
+               <a class="link_rodape" href="https://www.icloud.com/">iCloud.com</a>
+               <br>
+               <a class="link_rodape" href="https://www.apple.com/br/supplier-responsibility">Responsabilidade dos
+                  fornecedores</a>
+            </ul>
+
+         </div>
+
+      </div>
+      <br>
+      <p>Outras formas de comprar: <a href="https://appleid.apple.com/br/"
+            class="link_rodape color_frase_rodape">encontre uma Apple Store</a> ou <a
+            href="https://appleid.apple.com/br/" class="link_rodape color_frase_rodape">revendedor Apple</a> na sua
+         região. Ou ligue para
+         0800-761-0867. Rua Leopoldo Couto de Magalhães Jr., 700, 7º andar, Itaim Bibi. São Paulo, SP. CEP: 04542-000.
+         <br>
+
+         Os Serviços de Mídia da Apple são fornecidos pela Apple Services LATAM LLC.
+      </p>
+
+      <hr class="hr1">
+
+      <p>
+         Copyright © 2021 Apple Inc. Todos os direitos reservados. Apple Computer Brasil Ltda. CNPJ: 00.623.904/0003-35
+         &nbsp;
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; <a class="link_rodape"
+            href="https://www.apple.com/choose-country-region/">BRASIL</a> </p>
+
+      <a class="links_footer">Política de Privacidade &#124; Política de vendas &#124; Avisos legais &#124; Mapa do site
+         &#124;</a>
+
+   </footer>
+   <!--FOOTER DESKTOP TERMINA AQUI-->
+
+   <script type="text/javascript" src="./js/js.js"></script>
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"></script>
+
+</body>
+
+</html>

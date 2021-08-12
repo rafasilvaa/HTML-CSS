@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contato</title>
+    <link rel="stylesheet" href="css/formulario.css">
+</head>
+<body>
+    <form>
+    <h1>Formulario de Contato</h1>
+    <hr>
+    <h4>Dados Pessoais</h4>
+    <label for="nomeid" >Nome </label>
+    <input type=”text” placeholder="Digite Seu nome" name=”nome” id="nomeid" value="" required/>
+    <label for="sobrenomeid">Sobrenome </label>
+    <input type=”text” placeholder="Digite Seu sobrenome" name=”sobrenome” id="sobrenomeid" value="" required/>
+    <label for="emailid">E-mail </label>
+    <input type="email" placeholder="Digite Seu Email" name=”email” id="emailid" value="" required/>
+    <label for="telid">Telefone</label>
+    <input type="tel" placeholder="Digite Seu Telefone" name="phone" id="telid" value="" required>
+    </label>
+    <hr>
+    <h4>Genero: </h4>
+    <input type="radio" id="masculinoid" name="genero" value="masculino"/>
+            <label for="masculinoid">Masculino</label>
+            <br>
+    <input type="radio" id="femininoid" name="genero" value="feminino"/>
+            <label for="femininoid">Feminino</label>
+            <br>
+    <input type="radio" id="nao_responderid" name="genero" value="nao_responder"/>
+            <label for="nao_responderid">Prefiro não Responder</label>
+            <hr>
+    <h4>Passa tempo: </h4>
+    <input type="checkbox" id="correrid" name="passa_tempo" value="correr"/>
+            <label for="correrid">Corrida</label> 
+            <br>
+    <input type="checkbox" id="netflixid" name="passa_tempo" value="netflix"/>
+            <label for="netflixid">NetFlix</label> 
+            <br>
+    <input type="checkbox" id="gamesId" name="passa_tempo" value="Games"/>
+            <label for="gamesId">Games</label> 
+            <br>
+    <input type="checkbox" id="musculacaoId" name="passa_tempo" value="Musculação"/>
+            <label for="musculacaoId">Musculação</label>
+            <br>
+    <input type="checkbox" id="natacaoid" name="passa_tempo" value="Outros"/>
+            <label for="natacaoid">Natação</label>
+            <hr>
+            <h4>Por Onde Conheceu Nosso Site?</h4>
+            <select name="pesquisa">
+                <option value="">Selecione</option>
+                <option value="google">Google</option>
+                <option value="Linkedin">LinkedIn</option>
+                <option value="facebook">Facebook</option>
+                <option value="Site">Outros</option>
+                </select>
+            <hr>
+            <h4>Deixe Seu Comentario <h4>
+                <textarea name=”mensagem” required></textarea>
+                <br>
+    <button type="submit">Enviar</button>
+    <button type="reset">Excluir</button>
+    </form>
+</body>
+</html>
